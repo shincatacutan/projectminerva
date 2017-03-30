@@ -1,0 +1,252 @@
+body {
+	font-family: "Segoe UI", "Segoe", Tahoma, Calibri, Helvetica, Arial,
+		sans-serif;
+	margin: 0;
+	font-size: 12px;
+	text-align: center;
+	background: #E8E8E7;
+	height: 100%;
+}
+
+#body_container {
+	margin: 0 auto;
+	width: 85%;
+	text-align: left;
+	background-color: #fff;
+	border: #ACACAC solid thin;
+}
+
+#body_dv {
+	min-height: 480px;
+}
+
+#header_dv img {
+	margin: 1.5em;
+	float: left;
+}
+
+div#header_user {
+	padding: 1em;
+	text-align: right;
+	font-size: 1em;
+}
+
+div#header_user span {
+	color: #e87722;
+}
+
+.ui-tabs-nav {
+	border-bottom-right-radius: 0px !important;
+	border-bottom-left-radius: 0px !important;
+}
+
+h1.title {
+	color: #FFF;
+	margin: 0;
+	font-size: 2em;
+	padding: 0 0.5em;
+	font-weight: 300;
+}
+
+h2 {
+	font-size: 1.3em;
+}
+
+div.info {
+	background: #e87722;
+	padding: 0.5em 1.5em;
+	clear: both;
+}
+
+div#tableSpace, div#inqTableSpace {
+	padding: 1em;
+}
+
+hr.seperator {
+	background: #E06D13;
+	width: 95%
+}
+
+span.emp-info-span {
+	display: block;
+	float: left;
+}
+
+span.emp-info-space {
+	display: block;
+	float: left;
+	margin: 0 0.8em;
+}
+
+label.detailsLbl {
+	display: block;
+	float: left;
+	width: 7em;
+}
+
+span.detailSpan {
+	display: block;
+	width: 30%;
+	padding: 0.5em;
+	float: left;
+	min-height: 2em;
+}
+
+span.addSpan {
+	display: block;
+}
+
+label.addLbl {
+	display: block;
+	width: 7em;
+	float: left;
+}
+
+span.detailRemarks {
+	width: 90%;
+}
+
+br.clearfix {
+	clear: both;
+}
+
+div#ui-datepicker-div, div.ui-spinner {
+	font-size: 1em;
+}
+
+input.ui-button {
+	padding: .5em;
+	font-size: 1em;
+	margin: 0 0.3em;
+}
+
+select {
+	font-family: Tahoma;
+	padding: 2px;
+}
+
+/* table.dataTable th.dt-left, table.dataTable td.dt-left {
+  text-align: left;
+  padding-left: 0.5em;
+} */
+div#tabs {
+	margin: 1em;
+}
+
+.ui-tabs {
+	border: 1px solid #8e846b;
+	color: #383838;
+	background: none !important;
+}
+
+.ui-dialog {
+	text-align: left;
+}
+
+div#dialog-form {
+	min-height: 250px !important;
+}
+
+.ui-tabs-panel {
+	display: block;
+	border-width: 0;
+	padding: 1em 1.4em;
+	background: none;
+	border: solid 1px rgb(82, 76, 64) !important;
+	margin: 0 0.1em !important;
+}
+
+table.dataTable.no-footer {
+	border-bottom: 1px solid #111111;
+	font-size: 1em;
+}
+
+table.dataTable th.dt-left, table.dataTable td.dt-left {
+	text-align: left;
+	padding-left: 0.5em;
+}
+
+div.tab_div {
+	clear: both;
+}
+
+.ui-widget-content {
+	background: #fff !important;
+}
+
+#adminDiv {
+	margin: 1em;
+	padding: 0.5em;
+	border: 1px solid #8e846b;
+	border-radius: 4px;
+}
+
+/* .ui-widget-content .ui-state-error {
+	border: 1px solid #ffb73d;
+	background: #d34d17
+		url(images/ui-bg_diagonals-medium_20_d34d17_40x40.png) 50% 50% repeat;
+	color: red !important;
+} */
+
+.two_column {
+	width: 50%;
+	float: left;
+}
+
+/* .error {
+	color: red;
+	padding-left: 1em;
+} */
+
+.ui-tabs .ui-tabs-nav .ui-tabs-anchor {
+	float: left;
+	padding: .5em 1em;
+	text-decoration: none;
+	font-weight: 600;
+}
+
+input[type="button"], input[type="submit"], input[type="reset"] {
+	font-weight: 500 !important;
+}
+
+fieldset {
+	padding: 1em;
+}
+
+div#body_dv div.loading_img {
+	padding-top: 20%;
+	text-align: center;
+}
+
+ul.ui-autocomplete li {
+	text-align: left;
+}
+
+p {
+	color: #000;
+}
+
+p span {
+	color: #d45d00;
+	font-style: italic;
+}
+
+div#reply-dialog-form h4 {
+	margin: 0.5em 0;
+}
+
+span#availableCharSpan {
+  display: block;
+  width: 40em;
+  text-align: right;
+  font-style: italic;
+  font-size: smaller;
+  
+}
+
+#viewDocModal .modal-dialog {
+    width: 70%;
+}
+.modal.large {
+     width: 80%;
+}
